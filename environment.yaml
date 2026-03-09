@@ -1,0 +1,30 @@
+name: automl
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - pyyaml
+  - tqdm
+  - pip
+  - pip:
+    - torch
+    - lightning
+    - xgboost
+    - lightgbm
+    - optuna
+    - arch
+    - statsmodels
+    - tslearn
+    - sktime
+    - wandb
+    - hydra-core
+    - pytest
